@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket       = "week13-acit4640-backend-bucket-2"
+    bucket       = "week13-acit4640-backend-bucket-3"
     key          = "terraform.tfstate"
     region       = "us-west-2"
     encrypt      = true
